@@ -1,0 +1,1059 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transpozz -  A freight company</title>
+
+  <!-- 
+    - favicon link
+  -->
+  <link rel="shortcut icon" href="assets\images\truck1.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header data-header>
+
+    <!-- 
+      - #overlay
+    -->
+
+    <div class="overlay" data-overlay></div>
+
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="assets\images\truck1.svg" alt="Transpozz">
+      </a>
+
+      <button class="nav-open-btn" data-nav-open-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="nav-close-btn" data-nav-close-btn>
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link">Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#service" class="navbar-link">Services</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link">About</a>
+          </li>
+
+          <!-- <li class="navbar-item">
+            <a href="#founders" class="navbar-link">Founders</a>
+          </li> -->
+
+          <!-- <li class="navbar-item">
+            <a href="#pricing" class="navbar-link">Pricing</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#faq" class="navbar-link">FAQ's</a>
+          </li> -->
+
+        </ul>
+
+        <a href="tel:76983 08294"><button class="btn btn-primary">Contact Us</button></a>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+  <main>
+    <article>
+
+      
+        <!-- - #HERO -->
+
+<section class="home" id="home">
+
+
+      <section class="hero" id="hero">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">We are changing the way of Transportation</h1>
+
+            
+
+            <form action="https://formspree.io/f/xgejjgoy" method="POST" class="hero-form">
+
+              <div class="input-field">
+                <label for="city1">PickUp Location</label>
+                <select id="city1" name="PickUp Location" required>
+                  <option value="vapi">Vapi</option>
+                  <option value="surat">Surat</option>
+                </select>
+              </div>
+
+              <div class="input-field">
+                <label for="city2">DropUp Location</label>
+                <select id="city2" name="DropUp Location" required>
+                  <option value="surat">Surat</option>
+                  <option value="vapi">Vapi</option>
+                </select>
+              </div>
+
+              <div class="input-field">
+                <label for="weight">Weight Of Your Goods</label>
+                <input type="number" id="weight" name="Weight" placeholder="Enter Weight" required>
+                <select name="weight_unit" id="weight_unit">
+                  <option value="kg">kg</option>
+                  <option value="ton">ton</option>
+                </select>
+              </div>
+
+              <input type="text" name="name" placeholder="Type Of Goods*" required class="input-field">
+
+              <div class="input-field">
+                <label for="vehicles">Choose Your Vehicle</label>
+                <select id="vehicles" name="choose your vehicle" required>
+                  <option value="14 FEET  (CAPACITY OF 3.5 - 4 TON CAPACITY)">14 FEET  (CAPACITY OF 3.5 - 4 TON CAPACITY)</option>
+                  <option value="17 FEET  (CAPACITY OF 4.5 - 5 TON CAPACITY)">17 FEET  (CAPACITY OF 4.5 - 5 TON CAPACITY)</option>
+                  <option value="19 FEET  (CAPACITY OF 5.5 - 10 TON CAPACITY)">19 FEET  (CAPACITY OF 5.5 - 10 TON CAPACITY)</option>
+                  <option value="20 FEET  (7.5 TON CAPACITY)">20 FEET  (7.5 TON CAPACITY)</option>
+                  <option value="20 FEET  (16 TON CAPACITY)">20 FEET  (16 TON CAPACITY)</option>
+                  <option value="24 FEET  (7.5 TON CAPACITY)">24 FEET  (7.5 TON CAPACITY)</option>
+                  <option value="24 FEET  (16 TON CAPACITY)">24 FEET  (16 TON CAPACITY)</option>
+                  <option value="32 FEET  (7.5 TON CAPACITY)">32 FEET  (7.5 TON CAPACITY)</option>
+                  <option value="32 FEET  (16 TON CAPACITY)">32 FEET  (16 TON CAPACITY)</option>
+                  <option value="32-40 FEET  (21 TON TO 31 TON CAPACITY)">32-40 FEET  (21 TON TO 31 TON CAPACITY)</option>
+                </select>
+              </div>
+
+              <div class="input-field">
+                <label for="date">Choose Date</label>
+                <input type="date" id="date" name="Pickup-Date" required>
+              </div>
+
+              <input type="text"  name="name" placeholder="Enter your name*" required class="input-field">
+
+              <input type="email" id="email" name="email" placeholder="Enter your email (optional)" class="input-field">
+
+              <input type="tel" id="phone" name="Phone-no" placeholder="Enter your phone no*" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required class="input-field">
+
+              
+
+              <button type="submit" class="btn btn-primary">Contact Us</button>
+
+            </form>
+          
+
+            <!-- <p class="hero-text">
+              <span>Free 30 days trial</span>
+              <span>Exclusive Support</span>
+              <span>No Fees</span>
+            </p> -->
+
+          </div>
+
+          <figure class="hero-banner">
+            <img src="assets\images\undraw_delivery_truck_vt6p (1).svg" alt="Seo illustration">
+          </figure>
+
+        </div>
+      </section>
+
+      </section>
+
+
+
+
+
+       
+        <!-- - #SERVICE -->
+
+
+      <section class="service" id="service">
+        <div class="container">
+
+          <h2 class="h2 section-title">Our Motive Is To Provide You Great Service</h2>
+
+          <p class="section-text">
+            By redefining logistics,with market-driven data
+          </p>
+
+
+          <form action="">
+
+          <ul class="service-list">
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="location-outline"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Delivery</h3>
+
+                <p class="card-text">
+                  We deliver across 15+State
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="ribbon-outline"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Reliability</h3>
+
+                <p class="card-text">
+                  Fast and Reliable service
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="trending-up-outline"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Distance Covered</h3>
+
+                <p class="card-text">
+                  We Covered 10k+ Km 
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="chatbox-ellipses-outline"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Customer Support</h3>
+
+                <p class="card-text">
+                  Quick Customer Support
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+         </form>
+
+        </div>
+      </section>
+
+      <!-- 2nd about section -->
+
+      <!-- <section class="service" id="service">
+        <div class="container">
+
+          <h2 class="h2 section-title">Get More Customers Online</h2>
+
+          <p class="section-text">
+            Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis a libero tempus, blandit and cursus
+            varius and
+            magnis sapien
+          </p>
+
+          <ul class="service-list">
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="location-outline"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Local SEO</h3>
+
+                <p class="card-text">
+                  Porta semper lacus cursus feugiat and primis ultrice
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="bar-chart-outline"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">E-Commerce SEO</h3>
+
+                <p class="card-text">
+                  Porta semper lacus cursus feugiat and primis ultrice
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="pie-chart-outline"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Advanced Analytics</h3>
+
+                <p class="card-text">
+                  Porta semper lacus cursus feugiat and primis ultrice
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="magnet-outline"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">PPC Management</h3>
+
+                <p class="card-text">
+                  Porta semper lacus cursus feugiat and primis ultrice
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section> -->
+
+
+      
+        <!-- - #ABOUT -->
+     
+
+       <section class="about" id="about">
+        <div class="container">
+
+          <div class="about-top">
+
+            <figure class="about-banner">
+              <img src="7534257_3665711.svg" alt="Seo illustration">
+            </figure>
+
+            <div class="about-content">
+
+              <p class="section-subtitle">Your Reliable Transoport Aggregator</p>
+
+              <h2 class="h3 section-title">About Transpozz</h2>
+
+              <p class="section-text">
+                Founded in 2023 with a vision to revolutionize the transportation industry in India through technological innovation, Transpozz stands as a leading B2B/B2C platform dedicated to connecting transport companies with shippers, fostering seamless and efficient logistics solutions across the nation.
+                At Transpozz,, we recognize and address the inherent challenges faced by the transport industry in India. Our mission is to transform traditional logistics by leveraging cutting-edge technology,market driven data  providing a comprehensive and cost-effective business model tailored for the unique needs of the transportation sector.
+              </p>
+
+              <!-- <p class="section-text">
+                Quaerat sodales sapien euismod blandit purus a purus ipsum primis in cubilia laoreet augue luctus magna
+                dolor luctus and
+                egestas sapien egestas vitae nemo volute
+              </p> -->
+
+            </div>
+
+          </div>
+
+          <div class="about-bottom">
+
+            <figure class="about-banner">
+              <img src="12291387_Wavy_Tsp-04_Single-10.svg" alt="Seo illustration">
+            </figure>
+
+            <div class="about-content">
+
+              <h3 class="h4 about-bottom-title">What We Actually Do</h3>
+
+              <p class="section-text">
+                Our platform acts as a catalyst, facilitating transparency, accessibility, and affordability to streamline 
+                logistics operations for a vast network of transport companies and shippers. With a commitment to being a trusted partner, we empower small and medium businesses with technological advancements, financial inclusivity, and supply chain capabilities.
+              </p>
+
+              <h3 class="h4 about-bottom-title">Our Achievements</h3>
+
+              <ul class="about-bottom-list">
+
+                <li class="about-bottom-item">
+                  <p class="section-text">
+                    Transpozz boosts a network of 10000+registered users  and 100+ number of sellers across  5+number of cities in the country, covering [number of pin ]. The platform facilitates over 20 lakhs+ transactions per month, making us a frontrunner in the B2B logistics aggregation business.
+                  </p>
+                </li>
+
+                  <!-- <li class="about-bottom-item">
+                    <p class="section-text">
+                      Nemo ipsam egestas volute turpis dolores undo ultrice aliquam quaerat at sodales sapien purus
+                    </p>
+                  </li> -->
+
+              </ul>
+
+            </div>
+
+          </div>
+          <br><br><br><br><br>
+
+          <div class="about-top">
+
+            <figure class="about-banner">
+              <img src="25273819_na_feb_10 (1).svg" alt="Seo illustration">
+            </figure>
+
+            <div class="about-content">
+
+              <p class="section-subtitle">Don't Be In Rush Because</p>
+
+              <h2 class="h3 section-title">We Believe In Convinience</h2>
+
+              <p class="section-text">
+                Through our seamless process, shippers can easily select transportation services, place orders with transport companies, 
+                and benefit from efficient and transparent transactions facilitated by Transpozz . Payment options include on-delivery and credit transactions, providing flexibility and convenience to our users.
+              </p>
+
+              <!-- <p class="section-text">
+                Quaerat sodales sapien euismod blandit purus a purus ipsum primis in cubilia laoreet augue luctus magna
+                dolor luctus and
+                egestas sapien egestas vitae nemo volute
+              </p> -->
+
+            </div>
+
+          </div>
+
+
+          <!-- where we serve  -->
+
+          <div class="about-bottom">
+
+            <figure class="about-banner">
+              <img src="12291334_Wavy_Tsp-01_Single-08.svg" alt="Seo illustration">
+            </figure>
+
+            <div class="about-content">
+
+              <h3 class="h4 about-bottom-title">Where We Actually Serve</h3>
+
+              <p class="section-text">
+                Headquartered in Vapi Gujarat , Transpozz has a presence in all major cities and metros across India, 
+                driving the future of logistics through technology, efficiency, and collaboration. Join us as we redefine the landscape of B2B/B2C logistics, creating a connected, transparent, and sustainable future for the transportation industry in India
+
+              <!-- <h3 class="h4 about-bottom-title">Our Achievements</h3>
+
+              <ul class="about-bottom-list">
+
+                <li class="about-bottom-item">
+                  <p class="section-text">
+                    Transpozz boosts a network of 10000+registered users  and 100+ number of sellers across  5+number of cities in the country, covering [number of pin ]. The platform facilitates over 20 lakhs+ transactions per month, making us a frontrunner in the B2B logistics aggregation business.
+                  </p>
+                </li> -->
+
+                  <!-- <li class="about-bottom-item">
+                    <p class="section-text">
+                      Nemo ipsam egestas volute turpis dolores undo ultrice aliquam quaerat at sodales sapien purus
+                    </p>
+                  </li> -->
+
+              </ul>
+
+            </div>
+
+          </div>
+
+          
+
+              <!-- <h3 class="h4 about-bottom-title">Our Achievements</h3>
+
+              <ul class="about-bottom-list">
+
+                <li class="about-bottom-item">
+                  <p class="section-text">
+                    Transpozz boosts a network of 10000+registered users  and 100+ number of sellers across  5+number of cities in the country, covering [number of pin ]. The platform facilitates over 20 lakhs+ transactions per month, making us a frontrunner in the B2B logistics aggregation business.
+                  </p>
+                </li> -->
+
+                  <!-- <li class="about-bottom-item">
+                    <p class="section-text">
+                      Nemo ipsam egestas volute turpis dolores undo ultrice aliquam quaerat at sodales sapien purus
+                    </p>
+                  </li> -->
+
+              </ul>
+
+            </div>
+
+          </div>
+
+
+        </div>
+      </section>
+   
+      
+        <!-- - #FOUNDERS SECTION -->
+     
+
+        <!-- <section class="founders" id="founders">
+          <div class="container">
+
+            <h1 class="founder">Founders</h1>
+  
+            <div class="about-top">
+  
+              <figure class="about-banner">
+                <img src="man1.png" alt="Seo illustration">
+              </figure>
+  
+              <div class="about-content">
+  
+                <p class="section-subtitle">CMO,TRANSPOZZ</p>
+  
+                <h2 class="h3 section-title">Siddesh Patil</h2>
+  
+                <p class="section-text">
+                  Siddesh is a CMO of Transpozz  with over 2+ years of experience in the field of Transportation and logistics. 
+                  He had a great exposure with the people in the transport and logistics domain.
+                </p>
+  
+                <p class="section-text">
+                  Quaerat sodales sapien euismod blandit purus a purus ipsum primis in cubilia laoreet augue luctus magna
+                  dolor luctus and
+                  egestas sapien egestas vitae nemo volute
+                </p>
+  
+              </div>
+  
+            </div>
+  
+            <div class="about-bottom">
+  
+              <figure class="about-banner">
+                <img src="man2.png" alt="Seo illustration">
+              </figure>
+  
+              <div class="about-content">
+  
+                <p class="section-subtitle">CTO,TRANSPOZZ</p>
+  
+                <h2 class="h3 section-title">Himanshu Upadhyay</h2>
+  
+                <p class="section-text">
+                  He is a technical backbone of transpozz he manages all the tech related works.
+                </p>
+  
+                <p class="section-text">
+                  Quaerat sodales sapien euismod blandit purus a purus ipsum primis in cubilia laoreet augue luctus magna
+                  dolor luctus and
+                  egestas sapien egestas vitae nemo volute
+                </p>
+  
+              </div>
+  
+            </div>
+            <br><br><br><br><br>
+  
+            <div class="about-top">
+  
+              <figure class="about-banner">
+                <img src="man3.png" alt="Seo illustration">
+              </figure>
+  
+              <div class="about-content">
+  
+                <p class="section-subtitle">COO,TRANSPOZZ</p>
+  
+                <h2 class="h3 section-title">Sashank Mishra</h2>
+  
+                <p class="section-text">
+                  he manages the operational pipeline in the company by which he maintains the high quality in the institutions.s
+                </p>
+  
+                <p class="section-text">
+                  Quaerat sodales sapien euismod blandit purus a purus ipsum primis in cubilia laoreet augue luctus magna
+                  dolor luctus and
+                  egestas sapien egestas vitae nemo volute
+                </p>
+  
+              </div>
+  
+            </div>
+   
+  
+        
+  
+            
+  
+                <h3 class="h4 about-bottom-title">Our Achievements</h3>
+  
+                <ul class="about-bottom-list">
+  
+                  <li class="about-bottom-item">
+                    <p class="section-text">
+                      Transpozz boosts a network of 10000+registered users  and 100+ number of sellers across  5+number of cities in the country, covering [number of pin ]. The platform facilitates over 20 lakhs+ transactions per month, making us a frontrunner in the B2B logistics aggregation business.
+                    </p>
+                  </li> 
+  
+                     <li class="about-bottom-item">
+                      <p class="section-text">
+                        Nemo ipsam egestas volute turpis dolores undo ultrice aliquam quaerat at sodales sapien purus
+                      </p>
+                    </li>
+  
+                </ul>
+  
+              </div>
+  
+            </div>
+  
+  
+          </div>
+        </section>
+        -->
+     
+
+
+      
+        <!-- - #PRICING -->
+     
+<!-- 
+      <section class="pricing" id="pricing">
+        <div class="container">
+
+          <div class="pricing-content">
+
+            <p class="section-subtitle">Easiest to use</p>
+
+            <h2 class="h3 section-title">One brilliant idea for every client</h2>
+
+            <p class="section-text">
+              Aliqum mullam blandit tempor sapien gravida at donec ipsum porta justo. Velna vitae auctor and congue
+              magna impedit
+              luctus dolor volute
+            </p>
+
+            <button class="btn btn-primary">Pricing & packages</button>
+
+          </div>
+
+          <figure class="pricing-banner">
+            <img src="./assets/images/pricing-banner.png" alt="Pricing illustration">
+          </figure>
+
+        </div>
+      </section> -->
+
+
+
+
+
+      
+        <!-- - #FAQ -->
+     
+
+      <!-- <section class="faq" id="faq">
+        <div class="container">
+
+          <p class="section-subtitle">Frequently asked questions</p>
+
+          <h2 class="h3 section-title">Everything you need to know before getting started</h2>
+
+          <div class="grid-wrapper">
+
+            <ul class="faq-list">
+
+              <li>
+                <h3 class="h4 card-title">Can I see SCEO in action before purchasing?</h3>
+
+                <p class="section-text">
+                  Etiam amet mauris suscipit in odio integer congue metus vitae arcu mollis blandit ultrice ligula
+                  egestas and magna
+                  suscipit lectus magna suscipit luctus blandit vitae
+                </p>
+              </li>
+
+              <li>
+                <h3 class="h4 card-title">What are the requirements for using SCEO?</h3>
+
+                <p class="section-text">
+                  An enim nullam tempor sapien gravida a donec ipsum enim an porta justo integer at velna vitae auctor
+                  integer congue undo
+                  magna at pretium purus pretium
+                </p>
+              </li>
+
+              <li>
+
+                <h3 class="h4 card-title">Can I use SCEO on different devices?</h3>
+
+                <ul class="faq-item-list">
+
+                  <li>
+                    <p class="section-text">
+                      Fringilla risus, luctus mauris orci auctor purus ligula euismod pretium purus pretium rutrum
+                      tempor sapien
+                    </p>
+                  </li>
+
+                  <li>
+                    <p class="section-text">
+                      Nemo ipsam egestas volute turpis dolores ut aliquam quaerat sodales sapien undo pretium a purus
+                    </p>
+                  </li>
+
+                </ul>
+
+              </li>
+
+            </ul>
+
+            <ul class="faq-list">
+
+              <li>
+                <h3 class="h4 card-title">Do you have a free trial?</h3>
+
+                <p class="section-text">
+                  Cubilia laoreet augue egestas and luctus donec curabite diam vitae dapibus libero and quisque gravida
+                  donec and neque.
+                  Blandit justo aliquam molestie nunc sapien
+                </p>
+              </li>
+
+              <li>
+                <h3 class="h4 card-title">How does SCEO handle my privacy?</h3>
+
+                <p class="section-text">
+                  Etiam amet mauris suscipit sit amet in odio. Integer congue leo metus. Vitae arcu mollis blandit
+                  ultrice ligula
+                </p>
+
+                <p class="section-text">
+                  An enim nullam tempor sapien gravida donec congue leo metus. Vitae arcu mollis blandit integer at
+                  velna
+                </p>
+
+              </li>
+
+              <li>
+
+                <h3 class="h4 card-title">I have an issue with my account</h3>
+
+                <ul class="faq-item-list">
+
+                  <li>
+                    <p class="section-text">
+                      Fringilla risus, luctus mauris orci auctor purus
+                    </p>
+                  </li>
+
+                  <li>
+                    <p class="section-text">
+                      Quaerat sodales sapien euismod blandit purus and ipsum primis in cubilia laoreet augue luctus
+                    </p>
+                  </li>
+
+                </ul>
+
+              </li>
+
+            </ul>
+
+          </div>
+
+          <p class="faq-bottom-link">
+            Have more questions?
+            <a href="#">Ask your question here</a>
+          </p>
+
+        </div>
+      </section> -->
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="cta">
+        <div class="container">
+          <div class="cta-card">
+
+            <h2 class="cta-title">For Any Further Queries You Can Reach Here</h2>
+
+            <div class="cta-button-wrapper">
+              <a href="tel:7698308294"><button class="btn btn-primary">Click Here</button></a>
+
+              <p>Our Team Will Shortly Reach You</p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  
+    <!-- - #FOOTER -->
+ 
+
+  <footer>
+
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="footer-logo">
+            <img src="assets\images\truck1.svg" alt="SCEO logo">
+          </a>
+
+          <p class="section-text">
+            At Transpozz, we recognize and address the inherent challenges faced by the transport industry in India. 
+            Our mission is to transform traditional logistics by leveraging cutting-edge technology.
+
+          </p>
+
+        </div>
+
+        <div class="footer-link-box">
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="h4">Company</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">About Us</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Careers</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Press & Media</a>
+            </li>
+
+            <!-- <li>
+              <a href="#" class="footer-link">Contact Us</a>
+            </li> -->
+
+          </ul>
+
+          <!-- <ul class="footer-list">
+
+            <li>
+              <p class="h4">Discover</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Our Blog</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Advertising</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Plans & Pricing</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Testimonials</a>
+            </li>
+
+          </ul> -->
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="h4">Legal</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Terms of Use</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Privacy Policy</a>
+            </li>
+
+            <!-- <li>
+              <a href="#" class="footer-link">Cookie Policy</a>
+            </li> -->
+
+            <li>
+              <a href="#" class="footer-link">Site Map</a>
+            </li>
+
+          </ul>
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="h4">Support</p>
+            </li>
+
+            <!-- <li>
+              <a href="#" class="footer-link">FAQs</a>
+            </li> -->
+
+            
+              <li>
+              <a href="mailto:himanshuupadhyay336@gmail.com" class="footer-link">Mail Us</a>
+            </li> 
+
+            <li>
+              <a href="#" class="footer-link">Community</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Live Calling</a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+    </div>
+
+    <hr class="divider">
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2023 <a href="#">Transpozz</a>. All Rights Reserved
+        </p>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">Facebook</a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">Twitter</a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">Instagram</a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">YouTube</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #GO TOP
+  -->
+
+  <a href="#top" class="go-top-btn" data-go-top>
+    <ion-icon name="arrow-up-outline"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!-- <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+  <script>
+    function sendEmail(){
+      Email.send({
+    Host : "smtp.gmail.com",
+    Username : "personal.portfoliozz@gmail.com",
+    Password : "Himu123#",
+    To : "himanshuupadhyay336@gmail.com",
+    From : document.getElementById("email").value,
+    Subject : "New Transport Enquiry",
+    Body : "City1: "+ document.getElementById("city1").value  
+    + "<br> City2: " + document.getElementById("city2").value
+    + "<br> Weight: " + document.getElementById("weight").value
+    + "<br> Weight_Unit: " + document.getElementById("weight_unit").value
+    + "<br> Type_of_Good: " + document.getElementById("goods").value
+    + "<br> Vehicle: " + document.getElementById("vehicles").value
+    + "<br> Date_Of_delievery: " + document.getElementById("date").value
+    + "<br> Name: " + document.getElementById("name").value
+    + "<br> Email: " + document.getElementById("email").value
+    + "<br> Phone_no: " + document.getElementById("phone").value
+}).then(
+  message => alert("Thanks For Contacting Us We Will Reach You In While ")
+);
+    }
+
+  </script> 
+
+onsubmit="sendEmail(); reset(); return false;"    -->
+
+</body>
+
+</html>
