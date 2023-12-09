@@ -97,159 +97,93 @@
       
         <!-- - #HERO -->
 
-<section class="home" id="home">
+        <section class="home" id="home">
 
 
-      <section class="hero" id="hero">
-        <div class="container">
-
-          <div class="hero-content">
-
-            <h1 class="h1 hero-title">We are changing the way of Transportation</h1>
-
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc_z3cnaodD7y50cbx9r-waCjFVR7UTlUj_7IDrSwZIpct-og/viewform?embedded=true" padding-left="35px" width="100%" height="2200vh" 
-            frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-
-
-            <!-- <form action="https://api.web3forms.com/submit" method="POST" class="hero-form">
-              <input type="hidden" name="access_key" value="b03c9925-b7eb-4348-af8e-01c193159c6b">
-
-              <div class="input-field">
-                <label for="city1">PickUp Location</label>
-                <select id="city1" name="PickUp Location" required>
-                  <option value="vapi">Vapi</option>
-                  <option value="surat">Surat</option>
-                </select>
+          <section class="hero" id="hero">
+            <div class="container">
+    
+              <div class="hero-content">
+    
+                <h1 class="h1 hero-title">We are changing the way of Transportation</h1>
+    
+                <!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc_z3cnaodD7y50cbx9r-waCjFVR7UTlUj_7IDrSwZIpct-og/viewform?embedded=true"  padding-left="30px" width="100%" height="2200vh" frameborder="0" 
+                marginheight="0" marginwidth="0">Loading…</iframe> -->
+    
+                
+    
+                <form action="https://script.google.com/macros/s/AKfycbzVE_UR7nBTGW1PtGR0BpDPwjJG5H4qmLKqyNYvttD-3MK9MqU8Tlrm0-5glBfZxXmXyg/exec" method="POST" class="hero-form">
+                  <!-- <input type="hidden" name="access_key" value="b03c9925-b7eb-4348-af8e-01c193159c6b"> -->
+    
+                  <div class="input-field">
+                    <label for="city1">PickUp Location</label>
+                    <select id="city1" name="PickUp_Location" required>
+                      <option value="vapi">Vapi</option>
+                      <option value="surat">Surat</option>
+                    </select>
+                  </div>
+    
+                  <div class="input-field">
+                    <label for="city2">DropUp Location</label>
+                    <select class="city2" id="city2" name="DropUp_Location" required>
+                      <option value="surat">Surat</option>
+                      <option value="vapi">Vapi</option>
+                    </select>
+                  </div>
+    
+                  <div class="input-field">
+                    <label for="weight">Weight Of Your Goods</label>
+                    <input type="number" id="weight" name="Weight" placeholder="Enter Weight" required>
+                    <select name="Weight_Unit" id="weight_unit">
+                      <option value="kg">kg</option>
+                      <option value="ton">ton</option>
+                    </select>
+                  </div>
+    
+                  <input type="text" id="goods" name="Goods" placeholder="Types Of Goods*" required class="input-field">
+    
+                  <div class="input-field">
+                    <label for="vehicles">Choose Your Vehicle</label>
+                    <select id="vehicles" name="Choose_Vehicle" required>
+                      <option value="14 FEET  (CAPACITY OF 3.5 - 4 TON CAPACITY)">14 FEET  (CAPACITY OF 3.5 - 4 TON CAPACITY)</option>
+                      <option value="17 FEET  (CAPACITY OF 4.5 - 5 TON CAPACITY)">17 FEET  (CAPACITY OF 4.5 - 5 TON CAPACITY)</option>
+                      <option value="19 FEET  (CAPACITY OF 5.5 - 10 TON CAPACITY)">19 FEET  (CAPACITY OF 5.5 - 10 TON CAPACITY)</option>
+                      <option value="20 FEET  (7.5 TON CAPACITY)">20 FEET  (7.5 TON CAPACITY)</option>
+                      <option value="20 FEET  (16 TON CAPACITY)">20 FEET  (16 TON CAPACITY)</option>
+                      <option value="24 FEET  (7.5 TON CAPACITY)">24 FEET  (7.5 TON CAPACITY)</option>
+                      <option value="24 FEET  (16 TON CAPACITY)">24 FEET  (16 TON CAPACITY)</option>
+                      <option value="32 FEET  (7.5 TON CAPACITY)">32 FEET  (7.5 TON CAPACITY)</option>
+                      <option value="32 FEET  (16 TON CAPACITY)">32 FEET  (16 TON CAPACITY)</option>
+                      <option value="32-40 FEET  (21 TON TO 31 TON CAPACITY)">32-40 FEET  (21 TON TO 31 TON CAPACITY)</option>
+                    </select>
+                  </div>
+    
+                  <div class="input-field">
+                    <label for="date">Choose Date</label>
+                    <input type="date" id="date" name="Pickup_Date" required>
+                  </div>
+    
+                  <input type="text"  id="name" name="Name" placeholder="Enter your name*" required class="input-field">
+    
+                  <input type="email" id="email" name="Email" placeholder="Enter your email (optional)" class="input-field">
+    
+                  <input type="tel" id="phone" name="Phone_No" placeholder="Enter your phone no*" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required class="input-field">
+      
+    
+                  <button type="submit" name="Submit" class="btn btn-primary">Contact Us</button>
+    
+                </form>
+    
               </div>
-
-              <div class="input-field">
-                <label for="city2">DropUp Location</label>
-                <select class="city2" id="city2" name="DropUp Location" required>
-                  <option value="surat">Surat</option>
-                  <option value="vapi">Vapi</option>
-                </select>
-              </div>
-
-              <div class="input-field">
-                <label for="weight">Weight Of Your Goods</label>
-                <input type="number" id="weight" name="Weight" placeholder="Enter Weight" required>
-                <select name="weight_unit" id="weight_unit">
-                  <option value="kg">kg</option>
-                  <option value="ton">ton</option>
-                </select>
-              </div>
-
-              <input type="text" id="goods" name="goods" placeholder="Types Of Goods*" required class="input-field">
-
-              <div class="input-field">
-                <label for="vehicles">Choose Your Vehicle</label>
-                <select id="vehicles" name="choose your vehicle" required>
-                  <option value="14 FEET  (CAPACITY OF 3.5 - 4 TON CAPACITY)">14 FEET  (CAPACITY OF 3.5 - 4 TON CAPACITY)</option>
-                  <option value="17 FEET  (CAPACITY OF 4.5 - 5 TON CAPACITY)">17 FEET  (CAPACITY OF 4.5 - 5 TON CAPACITY)</option>
-                  <option value="19 FEET  (CAPACITY OF 5.5 - 10 TON CAPACITY)">19 FEET  (CAPACITY OF 5.5 - 10 TON CAPACITY)</option>
-                  <option value="20 FEET  (7.5 TON CAPACITY)">20 FEET  (7.5 TON CAPACITY)</option>
-                  <option value="20 FEET  (16 TON CAPACITY)">20 FEET  (16 TON CAPACITY)</option>
-                  <option value="24 FEET  (7.5 TON CAPACITY)">24 FEET  (7.5 TON CAPACITY)</option>
-                  <option value="24 FEET  (16 TON CAPACITY)">24 FEET  (16 TON CAPACITY)</option>
-                  <option value="32 FEET  (7.5 TON CAPACITY)">32 FEET  (7.5 TON CAPACITY)</option>
-                  <option value="32 FEET  (16 TON CAPACITY)">32 FEET  (16 TON CAPACITY)</option>
-                  <option value="32-40 FEET  (21 TON TO 31 TON CAPACITY)">32-40 FEET  (21 TON TO 31 TON CAPACITY)</option>
-                </select>
-              </div>
-
-              <div class="input-field">
-                <label for="date">Choose Date</label>
-                <input type="date" id="date" name="Pickup-Date" required>
-              </div>
-
-              <input type="text"  id="name" name="name" placeholder="Enter your name*" required class="input-field">
-
-              <input type="email" id="email" name="email" placeholder="Enter your email (optional)" class="input-field">
-
-              <input type="tel" id="phone" name="Phone-no" placeholder="Enter your phone no*" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required class="input-field">
-
-              <input type="hidden" name="redirect" value="https://web3forms.com/success">
-
-           
-
-              <button type="submit"  class="btn btn-primary">Contact Us</button>
-
-            </form> -->
-
-            <!-- <script src="contact form to email.js"></script> -->
-            <!-- <script src="https://smtpjs.com/v3/smtp.js">
-            </script>
-            <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
-            <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-           -->
-
-
-            <!-- <script>
-            function emailSend() {
-              var city1 = document.getElementById("city1").value;
-              var city2 = document.getElementById("city2").value;
-              var weight = document.getElementById("weight").value;
-              var weightUnit = document.getElementById("weight_unit").value;
-              var goods = document.getElementById("goods").value;
-              var vehicles = document.getElementById("vehicles").value;
-              var date = document.getElementById("date").value;
-              var name = document.getElementById("name").value;
-              var email = document.getElementById("email").value;
-              var phone = document.getElementById("phone").value;
-          
-              var messageBody = "City1: " + city1 +
-                  "</br> City2: " + city2 +
-                  "</br> Weight: " + weight +
-                  "</br> WeightUnit: " + weightUnit +
-                  "</br> Goods: " + goods +
-                  "</br> Vehicles: " + vehicles +
-                  "</br> Date: " + date +
-                  "</br> Name: " + name +
-                  "</br> Email: " + email +
-                  "</br> Phone: " + phone
-          
-              Email.send({
-                  Host: "smtp.elasticemail.com",
-                  Username: "himanshubharadwaj1672@gmail.com",
-                  Password: "884D619C72E911B51C1DCC44F9C5ED3E945D",
-                  To: 'contacttranspozz@gmail.com',
-                  From: "himanshubharadwaj1672@gmail.com",
-                  Subject: "Transport related work",
-                  Body: messageBody
-              }).then(
-                  message => {
-                    if(message=='ok'){
-                      swal("Succsessful", "You clicked the button!", "success");
-                    }
-                    else{
-                      swal("Error", "You clicked the button!", "error");
-                    }
-                  }
-              );
-          }
-        </script> -->
-          
-
-            <!-- <script src="whatsapp.js"></script> -->
-          
-
-            <!-- <p class="hero-text">
-              <span>Free 30 days trial</span>
-              <span>Exclusive Support</span>
-              <span>No Fees</span>
-            </p> -->
-
-          </div>
-
-          <figure class="hero-banner">
-            <img src="truck img.svg" alt="Seo illustration">
-          </figure>
-
-        </div>
-      </section>
-
-      </section>
-
+    
+              <figure class="hero-banner">
+                <img src="assets\images\undraw_delivery_truck_vt6p (1).svg" alt="Seo illustration">
+              </figure>
+    
+            </div>
+          </section>
+    
+          </section>
 
 
 
