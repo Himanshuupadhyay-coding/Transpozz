@@ -1379,46 +1379,13 @@ margin-top: -40px;}
   border-style: hidden;
 }
 
-/* diffrent input field */
-
-.input-field {
-  margin-bottom: 15px;
-  flex: 1;
-}
-
-form {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-
-label {
-  margin-bottom: 5px;
-  display: block;
-}
-
-.hero-content {
-  flex: 1;
-}
-
-.hero-form {
-  display:contents;
-  flex-wrap:var(--transition);  
-
-} 
-
-/* diffrent input field */
-
 /* Media Queries for Responsive Design */
 
 /* Small devices (phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 700px) {
   /* Example: Adjust the font size for better readability on small devices */
   body {
-    font-size: 16px;
+    font-size: 20px;
   }
 
   /* Add more styles or adjust existing styles for small devices */
