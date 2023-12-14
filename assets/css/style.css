@@ -520,7 +520,7 @@ header .container {
 .cta-title {
   color: var(--gunemtal);
   font-size: var(--fs-4);
-  font-weight: var(--fw-500);
+  font-weight: var(--fw-500); 
   margin-bottom: 20px;
 }
 
