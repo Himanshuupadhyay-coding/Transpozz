@@ -41,7 +41,7 @@
 
   --ff-rubik: "Rubik", sans-serif;
 
-  --fs-1: 24px;
+  --fs-1: 28px;
   --fs-2: 26px;
   --fs-3: 24px;
   --fs-4: 20px;
@@ -1381,12 +1381,15 @@ margin-top: -40px;}
 
 /* Media Queries for Responsive Design */
 
-/* Small devices (phones, 600px and up) */
-@media only screen and (min-width: 700px) {
-  /* Example: Adjust the font size for better readability on small devices */
-  body {
-    font-size: 20px;
+
+
+/* Responsive Styles */
+
+@media only screen and (max-width: 480px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
   }
 
-  /* Add more styles or adjust existing styles for small devices */
 }
