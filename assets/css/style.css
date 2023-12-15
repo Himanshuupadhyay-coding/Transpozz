@@ -1379,4 +1379,12 @@ margin-top: -40px;}
   border-style: hidden;
 }
 
+/* Small devices (phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  /* Example: Adjust the font size for better readability on small devices */
+  body {
+    font-size: 16px;
+  }
 
+  /* Add more styles or adjust existing styles for small devices */
+}
