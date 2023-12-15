@@ -514,7 +514,7 @@ header .container {
   padding:50px;
   text-align: center;
   /* margin:30px; */
-  box-shadow: 30px 30px 60px #ffd90047;
+  /* box-shadow: 30px 30px 60px #ffd90047; */
 }
 
 .cta-title {
