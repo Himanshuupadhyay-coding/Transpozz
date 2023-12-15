@@ -1379,17 +1379,4 @@ margin-top: -40px;}
   border-style: hidden;
 }
 
-/* Media Queries for Responsive Design */
 
-
-
-/* Responsive Styles */
-
-@media only screen and (max-width: 480px) {
-  .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-    position: relative;
-  }
-
-}
