@@ -17,7 +17,7 @@
   --white: hsl(0, 0%, 100%);
   --jet: hsl(0, 0%, 20%);
 
-  --gradient: linear-gradient(0.5turn, #e7b9e7, #ffffff);
+  --gradient: linear-gradient(0.5turn, hsl(213, 42%, 91%),hsl(0, 0%, 100%));
 
   /**
    * typography
@@ -131,7 +131,7 @@ body { background: var(--white); }
 }
 
 .btn-primary {
-  background:#d82dfaa1;
+  background:#ffd700;
   color:#000000;
   border-color:#ffd90065;
 }
@@ -289,12 +289,7 @@ header .container {
   margin-bottom: 40px;
 }
 
-.hero-title { margin-bottom: 30px;
-  background: linear-gradient(to top,#ffffff, #d82dfaa1 ,#ffffff);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent; 
-font-size: 60px;
+.hero-title { margin-bottom: 22px;
 font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif}
 
 .hero-form { margin-bottom: 25px; }
