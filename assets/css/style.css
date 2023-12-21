@@ -227,7 +227,7 @@ header .container {
 .nav-close-btn {
   position: absolute;
   top: 10px;
-  right: 15px;
+  right: 10px;
 }
 
 .navbar-link {
@@ -323,7 +323,7 @@ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans 
 
 .hero-text span:not(:last-child) { margin-bottom: 10px; }
 
-.hero-banner img { width: 123%; 
+.hero-banner img { width: 100%; 
  }
 
 
