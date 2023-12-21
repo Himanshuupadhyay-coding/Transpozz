@@ -323,7 +323,7 @@ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans 
 
 .hero-text span:not(:last-child) { margin-bottom: 10px; }
 
-.hero-banner img { width: 100%; 
+.hero-banner img { width: 123%; 
  }
 
 
@@ -1396,3 +1396,8 @@ outline: #757575;
 }
  
 select:focus {outline:0;}
+
+.logo #trans{
+  height:50px;
+  width:120px;
+}
